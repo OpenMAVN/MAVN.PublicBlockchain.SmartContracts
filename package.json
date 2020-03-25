@@ -1,0 +1,25 @@
+{
+  "name": "falcon-os",
+  "private": true,
+  "scripts": {
+    "test": "npx truffle test",
+    "coverage": "npx solidity-coverage",
+    "deploy": "npx truffle compile && npx truffle exec scripts/deploy.js",
+    "add-role": "npx truffle exec scripts/addRole.js",
+    "transferOwnership": "npx truffle exec scripts/transferOwnership.js"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "2.3.0",
+    "@openzeppelin/test-helpers": "0.5.1",
+    "axios": "0.19.0",
+    "chai": "4.2.0",
+    "delay": "4.3.0",
+    "dotenv": "8.1.0",
+    "shelljs": "0.8.3",
+    "solidity-coverage": "0.6.7",
+    "truffle": "5.0.40",
+    "truffle-hdwallet-provider": "1.0.17",
+    "truffle-plugin-verify": "0.3.3",
+    "yargs": "14.2.0"
+  }
+}

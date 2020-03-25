@@ -1,0 +1,17 @@
+# Well-known infrastructure folders
+/node_modules/
+
+# IDEs
+**/.idea/
+
+# solidity-coverage
+coverage
+coverage.json
+coverageEnv
+
+# truffle
+/build/
+.node-xmlhttprequest-*
+
+# dotenv
+/.env

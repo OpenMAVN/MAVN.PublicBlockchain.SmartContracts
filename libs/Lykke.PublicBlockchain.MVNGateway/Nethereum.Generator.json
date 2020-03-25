@@ -1,0 +1,15 @@
+{
+  "ABIConfigurations": [{
+    "ContractName": "MVNGateway",
+    "ABI": null,
+    "ABIFile": "MVNGateway.abi",
+    "ByteCode": null,
+    "BinFile": null,
+    "BaseNamespace": "Lykke.PublicBlockchain",
+    "CQSNamespace": "Definitions",
+    "DTONamespace": "DTOs",
+    "ServiceNamespace": "Services",
+    "CodeGenLanguage": "CSharp",
+    "BaseOutputPath": null
+    }]  
+}
